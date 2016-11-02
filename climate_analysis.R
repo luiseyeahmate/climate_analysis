@@ -3,6 +3,8 @@
 #Using temperature conversion functions from library temerature_conversion.
 source("temp_conversion.R")
 
+# to do - add rainfall processing in climate analysis tool.
+
 options(echo=TRUE) # if you want see commands in output file
 
 climate_data <- read.table("../data/sc_climate_data_10.csv", sep = ",")
